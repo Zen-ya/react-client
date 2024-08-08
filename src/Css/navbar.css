@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
-    background-color: #282c34; /* Couleur de fond sombre */
+    background-color: #37538d; /* Couleur de fond sombre */
     color: rgb(137, 150, 56);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Ombre légère */
   }
@@ -39,7 +39,7 @@
   }
   
   .navbar .nav-links a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;

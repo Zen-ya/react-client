@@ -2,6 +2,7 @@ import React from 'react';
 import viteLogo from '../public/vite.svg'
 import reactLogo from '../assets/react.svg'
 import '../Css/navbar.css'
+import Search from './youtube';
 // Assurez-vous de créer ce fichier CSS pour les styles
 
 const Navbar = () => {
@@ -29,6 +30,7 @@ const Navbar = () => {
       
           <img src={reactLogo} className="logo react" alt="React logo"/>
         </a>
+        <Search/>
     </nav>
   );
 };

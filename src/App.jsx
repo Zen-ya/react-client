@@ -39,7 +39,7 @@ import Register from './Page/register';
 import Login from './Page/login';
 import Profile from './Page/profile';
 import UpdateProfile from './Page/update_profile';
-
+import Addsong from './Page/addSong';
 export default function Apps() {
 
   return (
@@ -51,6 +51,7 @@ export default function Apps() {
           <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/update-profile" element={<UpdateProfile />} />
+          <Route path="/Addsong" element={<Addsong />} />
         </Routes>
       </div>
     </Router>

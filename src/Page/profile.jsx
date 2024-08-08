@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProfileUpdate from './update_profile';
+
 
 const Profile = () => {
 
@@ -47,8 +47,11 @@ const Profile = () => {
 
       <img src={user.AvatarUrl} alt="Avatar" />
       <br></br>
-      <ProfileUpdate/>
-      <button onClick={() => localStorage.clear()}>Log out</button>
+      <ul className="nav-links">
+        <li><a href="/update-profile">Update Profile</a></li>
+        <li><a href="/Addsong">Add song</a></li>
+      </ul>
+      <button onClick={() => localStorage.clear()}><a href='/login'>Log out</a></button>
     </div>
     
   );
